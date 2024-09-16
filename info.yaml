@@ -12,13 +12,9 @@ project:
   how_it_works: "Accepts BCD through 4 input pins, and outputs the decimal equivalent (output pins 0 to 7). This is a functional clone of the DM7447, but does not include values 8 and 9 due to package constraints."
   how_to_test:  "Write to the BCD input (IN0:0, IN1:2, IN2:4, IN3:8). One corresponding decimal output pin will be driven high."
   external_hw:  "None"
-  doc_link:     "https://github.com/jglim/tinytapeout_bcd-dec/blob/main/README.md"
   clock_hz:     0
   language:     "wokwi"
   wokwi_id:     341161378978988626
- # picture:      "ds.png"
-
-   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   inputs:
@@ -39,5 +35,6 @@ project:
     - decimal output 5
     - decimal output 6
     - decimal output 7
+    
 # Do not change!
 yaml_version: 6
