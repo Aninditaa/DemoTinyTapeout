@@ -17,6 +17,10 @@ project:
   language:     "wokwi"
   wokwi_id:     341161378978988626
  # picture:      "ds.png"
+
+   # How many tiles your design occupies? A single tile is about 167x108 uM.
+  tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
+
   inputs:
     - input 1 (BCD 1)
     - input 2 (BCD 2)
