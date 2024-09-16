@@ -35,3 +35,5 @@ project:
     - decimal output 5
     - decimal output 6
     - decimal output 7
+# Do not change!
+yaml_version: 6
